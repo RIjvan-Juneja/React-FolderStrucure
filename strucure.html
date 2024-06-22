@@ -4,10 +4,6 @@ my-vite-react-app/
 │   ├── manifest.json
 │   └── robots.txt
 ├── src/
-│   ├── api/
-│   │   ├── apiClient.ts
-│   │   ├── auth.ts
-│   │   └── index.ts
 │   ├── assets/
 │   │   ├── images/
 │   │   │   └── logo.png
@@ -25,20 +21,26 @@ my-vite-react-app/
 │   │   │   ├── Footer.tsx
 │   │   │   └── Sidebar.tsx
 │   │   └── pages/
-│   │       ├── HomePage.tsx
-│   │       ├── AboutPage.tsx
-│   │       └── ProfilePage.tsx
+│   │       ├── HomePage/
+│   │       │   ├── HomePage.tsx
+│   │       │   └── HomePage.module.scss
+│   │       ├── AboutPage/
+│   │       │   ├── AboutPage.tsx
+│   │       │   └── AboutPage.module.scss
+│   │       └── ProfilePage/
+│   │           ├── ProfilePage.tsx
+│   │           └── ProfilePage.module.scss
 │   ├── contexts/
 │   │   ├── AuthContext.tsx
 │   │   └── ThemeContext.tsx
+│   ├── data/
+│   │   ├── users.json
+│   │   ├── products.json
+│   │   └── index.ts
 │   ├── hooks/
 │   │   ├── useAuth.ts
 │   │   ├── useFetch.ts
 │   │   └── useTheme.ts
-│   ├── routes/
-│   │   ├── PrivateRoute.tsx
-│   │   ├── PublicRoute.tsx
-│   │   └── index.tsx
 │   ├── services/
 │   │   ├── AuthService.ts
 │   │   ├── UserService.ts
